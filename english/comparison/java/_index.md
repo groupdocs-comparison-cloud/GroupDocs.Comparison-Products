@@ -49,7 +49,7 @@ submenu:
               text: "Pricing"
 
     right:
-        link_download: "https://groupdocscloud.github.io/"
+        link_download: "https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-java"
         link_learn: "https://docs.groupdocs.cloud/comparison/"
         link_buy: "https://purchase.groupdocs.cloud/buy"
 
@@ -68,32 +68,21 @@ overview:
       
         left:
           enable: true
-          table:
-            # table loop
-            - icon: "fas fa-check"
-              title: "Accept retrieved changes"
-              
-            # table loop
-            - icon: "fas fa-bookmark-o"
-              title: "Document Resources"
-              content: |
-                * Result document
-                * Stream of result
-                * Images of result
-
+          icon: "fas fa-crop"
+          title: "Document Resources"
+          content: |
+            * Accept retrieved changes
+            * Result document
+            * Stream of result
+            * Images of result
         right:
           enable: true
-          table:
-            # table loop
-            - icon: "fas fa-trash-o"
-              title: "Reject retrieved changes"
-              
-            # table loop
-            - icon: "fas fa-retweet"
-              title: "Changes Resources"
-              content: |
-                * Get changes
-                * Update changes
+          icon: "fas fa-file-alt"
+          title: "Changes Resources"
+          content: |
+            * Reject retrieved changes
+            * Get changes
+            * Update changes
 
       ## TAB TWO ##
       tab_two:
@@ -171,7 +160,7 @@ features:
 
     feature:
       # feature loop
-      - icon: "fas fa-file-o"
+      - icon: "fas fa-file"
         content: "Upload Documents to Cloud Storage and make Comparison"
 
       # feature loop
@@ -189,8 +178,9 @@ features:
       # feature loop
       - icon: "fas fa-plug"
         content: "Accept or Reject the Changes to Save or Discard them"
+
       # feature loop
-      - icon: "fas fa-file-o"
+      - icon: "fas fa-file"
         content: "Return Updated Changes of the Resultant Document as a Set of Images or their Stream"
       # feature loop
       - icon: "fas fa-desktop"
@@ -205,35 +195,35 @@ features:
     more_feature:
       # more_feature_loop
       - title: "Get Changes from Compared Documents"
-        content: "Using GroupDocs.Comparison Cloud API, you can compare documents and get list of changes, with just a few lines of code."
+        content: "Using GroupDocs.Comparison Cloud API, you can compare documents and get the list of changes ‎between them. Following piece of code shows how you can retrieve difference between a source and ‎a target DOCX files and fetch their differences in a result.DOCX file using Java:‎"
 
       # more_feature_loop
-      - title: "Get changes from compared documents - cURL"
+      - title: "Get Changes from Compared Documents using Java"
         content: |
       
           
           ```Java
-          # TODO: Get your AppSID and AppKey at https://dashboard.groupdocs.cloud/#/apps (free registration is required).
-          # For complete examples and data files, please go to https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-java
+            # TODO: Get your AppSID and AppKey at https://dashboard.groupdocs.cloud/#/apps (free registration is required).
+            # For complete examples and data files, please go to https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-java
 
-          String  outPath = "result.docx",
-          sourceName = "source.docx",
-          targetName = "target.docx";
+            String  outPath = "result.docx",
+            sourceName = "source.docx",
+            targetName = "target.docx";
 
-          StorageApi storageApi = Utils.getStorageApiInstance();
+            StorageApi storageApi = Utils.getStorageApiInstance();
 
-          // Upload files to Cloud Storage
-          File file = new File("src/main/resources/" + sourceName);
-          ResponseMessage storageresponse = storageApi.PutCreate("comparison/" + sourceName, null, null, file);
-          file = new File("src/main/resources/" + targetName);
-          storageresponse = storageApi.PutCreate("comparison/" + targetName, null, null, file);
+            // Upload files to Cloud Storage
+            File file = new File("src/main/resources/" + sourceName);
+            ResponseMessage storageresponse = storageApi.PutCreate("comparison/" + sourceName, null, null, file);
+            file = new File("src/main/resources/" + targetName);
+            storageresponse = storageApi.PutCreate("comparison/" + targetName, null, null, file);
 
-          ChangesApi changesApi = Utils.getChangesApiInstance();
-          PutChangesDocumentRequest request = new PutChangesDocumentRequest();
-          request.setRequest(GetComparisonRequest(sourceName, targetName));
-          request.setOutPath(outPath);
-          Link response = changesApi.putChangesDocument(request);
-          System.out.println(response);
+            ChangesApi changesApi = Utils.getChangesApiInstance();
+            PutChangesDocumentRequest request = new PutChangesDocumentRequest();
+            request.setRequest(GetComparisonRequest(sourceName, targetName));
+            request.setOutPath(outPath);
+            Link response = changesApi.putChangesDocument(request);
+            System.out.println(response);
           ```
       
 
@@ -251,41 +241,41 @@ solutions:
         - img_alt: "GroupDocs.Comparison Cloud SDK for cURL"
           image: "/sdk/272x272/groupdocs_comparison-for-curl.webp"
           product: "GroupDocs.Comparison"
-          platform: "Cloud for cURL"
-          link: "/comparison/curl"
+          platform: "cURL"
+          link: "/comparison/curl/"
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for .NET"
           image: "/sdk/272x272/groupdocs_comparison-for-net.webp"
           product: "GroupDocs.Comparison"
           platform: ".NET"
-          link: "/comparison/net"
+          link: "/comparison/net/"
 
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for PHP"
           image: "/sdk/272x272/groupdocs_comparison-for-php.webp"
           product: "GroupDocs.Comparison"
           platform: "PHP"
-          link: "/comparison/php"
+          link: "/comparison/php/"
 
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_comparison-for-python.webp"
           product: "GroupDocs.Comparison"
           platform: "Python"
-          link: "/comparison/python"
+          link: "/comparison/python/"
 
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Ruby"
           image: "/sdk/272x272/groupdocs_comparison-for-ruby.webp"
           product: "GroupDocs.Comparison"
           platform: "Ruby"
-          link: "/comparison/ruby"
+          link: "/comparison/ruby/"
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_comparison-for-node.webp"
           product: "GroupDocs.Comparison"
           platform: "Node.js"
-          link: "/comparison/nodejs"
+          link: "/comparison/nodejs/"
 
         
 

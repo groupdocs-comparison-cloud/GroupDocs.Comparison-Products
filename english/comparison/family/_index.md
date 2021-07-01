@@ -26,7 +26,7 @@ apis:
           img_alt: "GroupDocs.Comparison Cloud for cURL"
           image: "/sdk/272x272/groupdocs_comparison-for-curl.webp"
           product: "GroupDocs.Comparison"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           content: "Use cURL to call our RESTful API, and compare documents in the cloud. Run it everywhere, for any language or platform."
 
         # api_product loop
@@ -64,7 +64,7 @@ apis:
           content: "Cloud-based, document comparison and difference checker applications development via Python."
 
         # api_product loop
-        - link: "/comparison/node.js"
+        - link: "/comparison/nodejs/"
           img_alt: "GroupDocs.Comparison Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_comparison-for-node.webp"
           product: "GroupDocs.Comparison"

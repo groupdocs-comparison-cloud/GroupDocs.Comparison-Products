@@ -27,7 +27,7 @@ apis:
           img_alt: "GroupDocs.Comparison Cloud for cURL"
           image: "/sdk/272x272/groupdocs_comparison-for-curl.webp"
           product: "GroupDocs.Comparison"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           content: "Interact with the document comparison REST API using cURL. Quickly detect differences between documents of the same format."
 
         # api_product loop

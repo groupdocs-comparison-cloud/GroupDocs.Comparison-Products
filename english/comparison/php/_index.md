@@ -49,7 +49,7 @@ submenu:
               text: "Pricing"
 
     right:
-        link_download: "https://groupdocscloud.github.io/"
+        link_download: "https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-php"
         link_learn: "https://docs.groupdocs.cloud/comparison/"
         link_buy: "https://purchase.groupdocs.cloud/buy"
 
@@ -68,32 +68,21 @@ overview:
       
         left:
           enable: true
-          table:
-            # table loop
-            - icon: "fas fa-check"
-              title: "Accept retrieved changes"
-              
-            # table loop
-            - icon: "fas fa-bookmark-o"
-              title: "Document Resources"
-              content: |
-                * Result document
-                * Stream of result
-                * Images of result
-
+          icon: "fas fa-crop"
+          title: "Document Resources"
+          content: |
+            * Accept retrieved changes
+            * Result document
+            * Stream of result
+            * Images of result
         right:
           enable: true
-          table:
-            # table loop
-            - icon: "fas fa-trash-o"
-              title: "Reject retrieved changes"
-              
-            # table loop
-            - icon: "fas fa-retweet"
-              title: "Changes Resources"
-              content: |
-                * Get changes
-                * Update changes
+          icon: "fas fa-file-alt"
+          title: "Changes Resources"
+          content: |
+            * Reject retrieved changes
+            * Get changes
+            * Update changes
 
       ## TAB TWO ##
       tab_two:
@@ -171,7 +160,7 @@ features:
 
     feature:
       # feature loop
-      - icon: "fas fa-file-o"
+      - icon: "fas fa-file"
         content: "Multiple file formats support"
 
       # feature loop
@@ -236,41 +225,41 @@ solutions:
         - img_alt: "GroupDocs.Comparison Cloud SDK for cURL"
           image: "/sdk/272x272/groupdocs_comparison-for-curl.webp"
           product: "GroupDocs.Comparison"
-          platform: "Cloud for cURL"
-          link: "/comparison/curl"
+          platform: "cURL"
+          link: "/comparison/curl/"
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for .NET"
           image: "/sdk/272x272/groupdocs_comparison-for-net.webp"
           product: "GroupDocs.Comparison"
           platform: ".NET"
-          link: "/comparison/net"
+          link: "/comparison/net/"
 
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_comparison-for-java.webp"
           product: "GroupDocs.Comparison"
           platform: "Java"
-          link: "/comparison/java"
+          link: "/comparison/java/"
 
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_comparison-for-python.webp"
           product: "GroupDocs.Comparison"
           platform: "Python"
-          link: "/comparison/python"
+          link: "/comparison/python/"
 
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Ruby"
           image: "/sdk/272x272/groupdocs_comparison-for-ruby.webp"
           product: "GroupDocs.Comparison"
           platform: "Ruby"
-          link: "/comparison/ruby"
+          link: "/comparison/ruby/"
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_comparison-for-node.webp"
           product: "GroupDocs.Comparison"
           platform: "Node.js"
-          link: "/comparison/nodejs"
+          link: "/comparison/nodejs/"
 
         
 
