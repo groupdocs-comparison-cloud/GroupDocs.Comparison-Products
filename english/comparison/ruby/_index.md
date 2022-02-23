@@ -15,7 +15,7 @@ head_description: "Compare images and documents with Ruby Cloud SDK &amp; REST A
 
 ############################# Header ############################
 title: "Compare Documents via Ruby Cloud SDK"
-description: "Build corporate document comparison tools using REST API. Works as a comprehensive solution for all major file formats.‎‎"
+description: "Build corporate document comparison tools using REST API. Works as a comprehensive solution for all major file formats."
 button:
     enable: true
 
@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Comparison for Cloud is a REST API that enables your Ruby applications to fetch two ‎documents of supported file format, compare those ‎same format documents and find differences ‎between them. The SDK allows you to make a resultant file and enables you to ‎accept or reject the ‎retrieved changes. Our Document Comparison SDK allows easy integration ‎into your existing Ruby ‎applications, to empower your end-users to compare documents, spreadsheets, ‎presentations, ‎Microsoft Visio diagrams, emails, and files of many other formats.‎‎‎
+      GroupDocs.Comparison for Cloud is a REST API that enables your Ruby applications to fetch two documents of supported file format, compare those same format documents and find differences between them. The SDK allows you to make a resultant file and enables you to accept or reject the retrieved changes. Our Document Comparison SDK allows easy integration into your existing Ruby applications, to empower your end-users to compare documents, spreadsheets, presentations, Microsoft Visio diagrams, emails, and files of many other formats.
     tabs:
       enable: true
       
@@ -169,7 +169,7 @@ features:
 
       # feature loop
       - icon: "fas fa-copy"
-        content: "Retrieve Resultant Document that Contains Differences among Compared Documents‎"
+        content: "Retrieve Resultant Document that Contains Differences among Compared Documents"
       
       # feature loop
       - icon: "fas fa-bullseye"
@@ -192,12 +192,12 @@ features:
     
       # feature loop
       - icon: "fas fa-bullseye"
-        content: "Retrieve Resultant Document (with the Comparison Result) as a Stream‎"
+        content: "Retrieve Resultant Document (with the Comparison Result) as a Stream"
   
     more_feature:
       # more_feature_loop
       - title: "Get Document Result as Images"
-        content: "Using GroupDocs.Comparison Cloud API, you can compare documents and get the list of modifications ‎in the form of images. Following piece of code shows how you can compare a source and ‎a target ‎DOCX files and fetch their differences in a result.DOCX file. Later you can get the resultant DOCX file as ‎images using Ruby:‎"
+        content: "Using GroupDocs.Comparison Cloud API, you can compare documents and get the list of modifications in the form of images. Following piece of code shows how you can compare a source and a target DOCX files and fetch their differences in a result.DOCX file. Later you can get the resultant DOCX file as images using Ruby:"
 
       # more_feature_loop
       - title: "Get Document Result as Images using Ruby"

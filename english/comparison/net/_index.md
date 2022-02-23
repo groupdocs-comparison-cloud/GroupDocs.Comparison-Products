@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Comparison Cloud API provides a one-stop-shop solution for comparing documents in all common business formats. Supported file types include PDF, Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, plain text, and others.‎
+      GroupDocs.Comparison Cloud API provides a one-stop-shop solution for comparing documents in all common business formats. Supported file types include PDF, Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, plain text, and others.
       
       Our API is completely independent of your operating system, database system or development language. You can use any language and platform that supports HTTP to interact with our API. However, manually writing client code can be difficult, error-prone and time-consuming, therefore, we have provided and supports SDKs in many development languages in order to make it easier to integrate with our Cloud Comparison services. If you use our SDK for .NET, it will hide the REST API calls and will let you use GroupDocs.Comparison Cloud API features in a native way for your .NET application.
     tabs:

@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Comparison for Cloud is a REST API that enables your Java applications to compare two ‎same format documents to find differences between them make a resultant file and allow you to ‎accept or reject the retrieved changes. Our Document Comparison SDK for Java allows easy integration ‎into your existing applications, so that your end-users can compare documents, spreadsheets, ‎presentations, Microsoft Visio diagrams, emails, and files of many other formats.‎‎
+      GroupDocs.Comparison for Cloud is a REST API that enables your Java applications to compare two same format documents to find differences between them make a resultant file and allow you to accept or reject the retrieved changes. Our Document Comparison SDK for Java allows easy integration into your existing applications, so that your end-users can compare documents, spreadsheets, presentations, Microsoft Visio diagrams, emails, and files of many other formats.
     tabs:
       enable: true
       
@@ -195,7 +195,7 @@ features:
     more_feature:
       # more_feature_loop
       - title: "Get Changes from Compared Documents"
-        content: "Using GroupDocs.Comparison Cloud API, you can compare documents and get the list of changes ‎between them. Following piece of code shows how you can retrieve difference between a source and ‎a target DOCX files and fetch their differences in a result.DOCX file using Java:‎"
+        content: "Using GroupDocs.Comparison Cloud API, you can compare documents and get the list of changes between them. Following piece of code shows how you can retrieve difference between a source and a target DOCX files and fetch their differences in a result.DOCX file using Java:"
 
       # more_feature_loop
       - title: "Get Changes from Compared Documents using Java"

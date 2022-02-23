@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Comparison Cloud API provides a one-stop-shop solution for comparing documents in all common business formats. Using cURL, you can send requests and receive responses and convert files on the cloud. Supported file types include: PDF and Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, plain text and others.‎
+      GroupDocs.Comparison Cloud API provides a one-stop-shop solution for comparing documents in all common business formats. Using cURL, you can send requests and receive responses and convert files on the cloud. Supported file types include: PDF and Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, plain text and others.
     tabs:
       enable: true
       

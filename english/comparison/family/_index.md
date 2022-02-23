@@ -10,7 +10,7 @@ head_description: "Compare documents, highlight changes or merge differences usi
 
 ############################# Header ############################
 title: "Document Comparison Cloud SDKs & API"
-description: "Compare documents, highlight changes or merge differences using the REST API or Cloud SDKs for .NET, Java, PHP & Ruby or by using simple cURL commands‎"
+description: "Compare documents, highlight changes or merge differences using the REST API or Cloud SDKs for .NET, Java, PHP & Ruby or by using simple cURL commands"
 
 ############################# APIs ###############################
 apis:

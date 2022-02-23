@@ -10,7 +10,7 @@ head_description: "Compare documents for content and style differences across po
 
 ############################# Header ############################
 title: "Document Comparison Solution"
-description: "Compare documents for content and style differences across popular platforms. Accept or reject changes with our Cloud API, SDKs, or online comparison tool‎"
+description: "Compare documents for content and style differences across popular platforms. Accept or reject changes with our Cloud API, SDKs, or online comparison tool"
 
 ############################# APIs ###############################
 apis:
